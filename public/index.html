@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+  <title>Fitness Tracker</title>
+</head>
+
+<body>
+  <nav>
+    <div class="ui orange two item inverted menu">
+      <div class="item"><a href="/">Fitness Tracker</a></div>
+      <div class="item"><a href="/stats">Dashboard</a></div>
+    </div>
+  </nav>
+  <div class="wrapper workout">
+    <header>
+      <h1>Fitness Tracker</h1>
+    </header>
+    <div class="ui container workout">
+      <div class="ui raised card m-auto">
+        <div class="prev-workout">
+          <h3>Last Workout</h3>
+          <div>
+            <div class="workout-stats"></div>
+            <div class="buttons">
+              <a href="/exercise" class="huge positive ui button">New Workout</a>
+              <a id="continue-btn" href="/exercise?" class="huge ui blue button">Continue Workout</a>
+              <a href="" class="huge ui red button">Update/Delete Workout</a>
+            </div>
+          </div>
+        </div>
+        <div class="new-workout">
+          <h3>Create Your First Workout</h3>
+        </div>
+      </div>
+      <div class="Project-Creators" style="margin-top: -290px;
+      margin-left: -120px;font-family: 'Roboto Mono',monospace;
+      font-size: 23px;">
+          <ol style="list-style-type: none;"><h2>Done by</h2>
+          <li>Vaka Abhilesh 22BCE3815</li>
+          <br>
+          <li>A Sai Venkata Teja 22BCE2139</li>
+          <br>
+          <li>Hamal Johny 22BCE2358</li>
+          <br>
+          <li>Dinesh Reddy N 22BCE0552</li>
+        </ol> 
+        </div>
+    </div>
+  </div>
+  </div>
+  <div id="toast">
+    Workout Added Successfully!
+  </div>
+  <script src="/api.js"></script>
+  <script src="/workout.js"></script>
+  <script src="/index.js"></script>
+</body>
+
+</html>
