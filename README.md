@@ -9,7 +9,7 @@ In the app, I used Mongoose to define a schema, where "Exercises" is included as
 
 Lastly, I used Mongoose's virtual attribute to automatically calculate the total duration of a workout, which gets shown on the homepage.
 
-
+![homepage-screenshot](./assets/homepage-screenshot.png)
   ## Table of Contents
  * [Usage](#Usage)
  * [Questions](#Questions)
