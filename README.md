@@ -24,7 +24,7 @@ Lastly, I used Mongoose's virtual attribute to automatically calculate the total
 ![dashboard-screenshot](./assets/dashboard-screenshot.png)
   ## Questions
 
-  Please address questions to GAFelton.
+  Please address questions to Abhilesh Vaka.
 
   [Link to Profile](https://github.com/Abhilesh-Vaka)
 
