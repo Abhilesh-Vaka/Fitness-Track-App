@@ -8,8 +8,7 @@
 In the app, I used Mongoose to define a schema, where "Exercises" is included as a field inside "Workouts." I also took advantage of Mongoose's discriminator feature to make it easier to extend and reuse the attributes of an Exercise.
 
 Lastly, I used Mongoose's virtual attribute to automatically calculate the total duration of a workout, which gets shown on the homepage.
-
-![homepage-screenshot](./assets/homepage-screenshot.png)
+![Homepage](./assets/homepage-screenshot.png)
   ## Table of Contents
  * [Usage](#Usage)
  * [Questions](#Questions)
